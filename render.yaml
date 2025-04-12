@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: baovecho-bot-server
+    env: python
+    buildCommand: ""
+    startCommand: "python bot_server.py"
